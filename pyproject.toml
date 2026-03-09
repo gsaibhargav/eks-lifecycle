@@ -1,0 +1,19 @@
+[project]
+name="eks-lifecycle"
+version="0.1.0"
+description="A project to audit EKS version and addons support"
+requires-python=">=3.11"
+authors=[
+    {name="Sai Bhargav Gummadi"}
+]
+dependencies = [
+    "click>=8.1"
+    "boto3"
+]
+
+[project.scripts]
+#name and initial call here
+
+[build-system]
+requires=["setuptools>=65.5.0"]
+build-backend="setuptools.build_meta"
