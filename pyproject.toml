@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-#name and initial call here
+elc="bin.cli:cli"
 
 [build-system]
 requires=["setuptools>=65.5.0"]
