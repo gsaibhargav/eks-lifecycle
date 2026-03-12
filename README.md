@@ -1,13 +1,13 @@
 # eks-lifecycle
 Amazon EKS version has a limited support window. Running unsupported Kubernetes versions can lead to:
 
-Security risks
+. Security risks
 
-Forced upgrades
+. Forced upgrades
 
-Production instability
+. Production instability
 
-Additional costs
+. Additional costs
 
 
-This py code checks your Amazon EKS cluster version support status and available updates for EKS add-ons, helping teams stay compliant with AWS support policies and avoid unexpected costs, upgrades or deprecations.
+This py code checks your Amazon EKS clusters in your AWS account, version support status and available updates for the cluster add-ons, helping teams stay compliant with AWS support policies and avoid unexpected costs, upgrades or deprecations.
